@@ -1,0 +1,28 @@
+
+{
+  "name": "ui-lib",
+  "version": "1.0.0",
+  "description": "dex",
+  "keywords": [],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build-dev": "tsc",
+    "test": "jest",
+    "clean": "rimraf lib"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.135",
+    "lodash": "^4.17.11"
+  }
+}
+

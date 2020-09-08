@@ -1,0 +1,28 @@
+{
+  "name": "scrm",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "DESKTOP-JVQ4LMK\\edz <zhixiong.xu@linkedcare.cn>",
+  "license": "ISC",
+  "main": "lib/scrm.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo success",
+    "build": "tsc",
+    "build-dev": "tsc",
+    "clean": "rimraf lib"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@types/lodash": "^4.14.161",
+    "lodash": "^4.17.20",
+    "ui-lib": "1.0.0"
+  }
+}
